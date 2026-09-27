@@ -1,0 +1,13 @@
+App(
+    appid="hashid_fz",
+    name="HashID FZ",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="hashid_fz_app",
+    sources=["*.c"],
+    requires=["gui", "storage", "dialogs"],
+    stack_size=4096,
+    fap_category="Tools",
+    fap_description="Native port of the genuine HashID signature database",
+    fap_author="HashID contributors; Flipper port contributors",
+    fap_version="1.0.0",
+)

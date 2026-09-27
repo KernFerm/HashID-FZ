@@ -1,0 +1,9 @@
+HashID FZ is based on HashID by c0re / psypanda contributors.
+Upstream: https://github.com/psypanda/hashID
+Pinned revision: 7e8473a823060e56d4b6090a98591e252bd9505e
+Upstream version: 3.2.0-dev
+License: GNU GPL version 3 or later
+
+The Flipper port replaces the Python runtime and desktop interfaces with a
+bounded native matcher and official Flipper firmware APIs while preserving the
+pinned ordered signature and candidate data.

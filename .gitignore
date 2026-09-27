@@ -1,0 +1,35 @@
+# Local specification and upstream inspection checkout
+/to-do.md
+/upstream-hashid/
+
+# Builds and generated caches
+.ufbt/
+.vscode/
+build/
+build-*/
+dist/debug/
+*.o
+*.obj
+*.elf
+*.map
+*.d
+*.exe
+__pycache__/
+*.pyc
+.pytest_cache/
+.snyk/
+node_modules/
+**/node_modules/
+
+# Runtime/generated data and credentials
+/reports/
+*.partial
+*.backup
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+secrets*
+*token*
