@@ -1,6 +1,8 @@
 # HashID FZ
 
-HashID FZ is a native Flipper Zero port of the genuine [psypanda/hashID](https://github.com/psypanda/hashID) identification database. Version 1.0.0 contains all 145 ordered upstream signatures and all 272 candidate records from the pinned HashID 3.2.0-dev revision.
+HashID FZ is a native Flipper Zero port of the genuine [psypanda/hashID](https://github.com/psypanda/hashID) identification database. Version 1.0.2 contains all 145 ordered upstream signatures and all 272 candidate records from the pinned HashID 3.2.0-dev revision.
+
+Current release: **v1.0.2**.
 
 Hash identification is inherently ambiguous. The application returns every matching candidate in upstream order and never claims certainty.
 

@@ -12,7 +12,7 @@ from dataclasses import dataclass
 import serial
 
 PROTOCOL = 1
-BRIDGE_VERSION = "1.0.0"
+BRIDGE_VERSION = "1.0.2"
 ROOT = pathlib.Path("/var/lib/hashid-fz")
 INPUT = ROOT / "input.txt"
 OUTPUT = ROOT / "output"

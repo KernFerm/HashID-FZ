@@ -12,7 +12,7 @@ The host suite checks upstream examples and representative MD5, SHA-1, SHA-256, 
 
 Device checklist:
 
-1. Confirm About shows version 1.0.0, 145 signatures, and 272 candidates.
+1. Confirm About shows version 1.0.2, 145 signatures, and 272 candidates.
 2. Enter `098f6bcd4621d373cade4e832627b4f6`; confirm several candidates appear and no certainty claim is made.
 3. Enable Extended candidates and confirm additional candidates appear for the same value.
 4. Confirm Hashcat and John metadata can each be hidden and shown.
@@ -25,12 +25,12 @@ Device checklist:
 
 ## Current automated evidence
 
-- Version: 1.0.0
+- Version: 1.0.2
 - Upstream compatibility/regeneration tests: 3/3 passed
 - Linux companion protocol/transaction tests: 4/4 passed
 - Clean official firmware 1.4.3 build: passed
 - APPCHK: target f7, API 87.1 passed
 - Snyk Code: zero issues at low-or-higher severity
 - Artifact: `dist/hashid_fz.fap`, 64,080 bytes
-- SHA-256: `4FC2219E7546F2377D3BEBC6DD97DABF3D1CDCD5127A3CD9C0F31F7AF08538C7`
+- SHA-256: `CE7973B06845A669F41571F1B5A70D2DFF3A289D440D0B54CBAA59A30F9633AE`
 - Raspberry Pi/Linux hardware and physical-device checklist: pending

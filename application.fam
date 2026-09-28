@@ -9,5 +9,5 @@ App(
     fap_category="Tools",
     fap_description="Native port of the genuine HashID signature database",
     fap_author="HashID contributors; Flipper port contributors",
-    fap_version="1.0.0",
+    fap_version="1.0.2",
 )

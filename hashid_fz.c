@@ -14,7 +14,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define HID_VERSION "1.0.0"
+#define HID_VERSION "1.0.2"
 #define HID_HISTORY APP_DATA_PATH("history.txt")
 #define HID_REPORT APP_DATA_PATH("report.txt")
 #define HID_REPORT_TMP APP_DATA_PATH("report.txt.partial")

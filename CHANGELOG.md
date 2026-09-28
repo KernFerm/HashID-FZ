@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.2 — 2026-09-27
+
+- Refreshed application and companion version metadata.
+- Rebuilt and revalidated the target f7/API 87.1 FAP.
+
 ## 1.0.0 — 2026-09-27
 
 - Ported all 145 ordered signatures and 272 candidate records from pinned HashID 3.2.0-dev.
