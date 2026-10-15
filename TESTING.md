@@ -8,11 +8,11 @@ python tests/test_companion.py
 python -m ufbt
 ```
 
-The host suite checks upstream examples and representative MD5, SHA-1, SHA-256, phpass, RACF, bcrypt, and LDAP SHA inputs; unknown input; exact database counts; deterministic regeneration; source hygiene; and exclusion of `to-do.md`. The firmware build compiles the native matcher and validates the FAP against target f7/API 87.1.
+The host suite checks upstream examples and representative MD5, SHA-1, SHA-256, phpass, RACF, bcrypt, and LDAP SHA inputs; unknown input; exact database counts; deterministic regeneration; source hygiene; and exclusion of `to-do.md`. The firmware build compiles the native matcher and validates the FAP against target f7/API 88.2.
 
 Device checklist:
 
-1. Confirm About shows version 1.0.2, 145 signatures, and 272 candidates.
+1. Confirm About shows version 1.0.3, 145 signatures, and 272 candidates.
 2. Enter `098f6bcd4621d373cade4e832627b4f6`; confirm several candidates appear and no certainty claim is made.
 3. Enable Extended candidates and confirm additional candidates appear for the same value.
 4. Confirm Hashcat and John metadata can each be hidden and shown.
@@ -25,12 +25,12 @@ Device checklist:
 
 ## Current automated evidence
 
-- Version: 1.0.2
+- Version: 1.0.3
 - Upstream compatibility/regeneration tests: 3/3 passed
 - Linux companion protocol/transaction tests: 4/4 passed
-- Clean official firmware 1.4.3 build: passed
-- APPCHK: target f7, API 87.1 passed
+- Clean official firmware 1.5.1 build: passed
+- APPCHK: target f7, API 88.2 passed
 - Snyk Code: zero issues at low-or-higher severity
 - Artifact: `dist/hashid_fz.fap`, 64,080 bytes
-- SHA-256: `CE7973B06845A669F41571F1B5A70D2DFF3A289D440D0B54CBAA59A30F9633AE`
+- SHA-256: `B4EB0542190441F5320723FC79FA0DC390822F975DA8CAD758D34C37BA83B4D4`
 - Raspberry Pi/Linux hardware and physical-device checklist: pending

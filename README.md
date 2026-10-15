@@ -1,8 +1,8 @@
 # HashID FZ
 
-HashID FZ is a native Flipper Zero port of the genuine [psypanda/hashID](https://github.com/psypanda/hashID) identification database. Version 1.0.2 contains all 145 ordered upstream signatures and all 272 candidate records from the pinned HashID 3.2.0-dev revision.
+HashID FZ is a native Flipper Zero port of the genuine [psypanda/hashID](https://github.com/psypanda/hashID) identification database. Version 1.0.3 contains all 145 ordered upstream signatures and all 272 candidate records from the pinned HashID 3.2.0-dev revision.
 
-Current release: **v1.0.2**.
+Current release: **v1.0.3**.
 
 Hash identification is inherently ambiguous. The application returns every matching candidate in upstream order and never claims certainty.
 
@@ -10,7 +10,7 @@ The complete pinned database runs natively on Flipper. An optional Raspberry Pi/
 
 ## Install
 
-The release targets official Flipper firmware 1.4.3, target f7, API 87.1.
+The release targets official Flipper firmware 1.5.1, target f7, API 88.2.
 
 1. Download `hashid_fz.fap` from the latest GitHub release.
 2. In qFlipper, open the microSD browser and copy it into `/ext/apps/Tools/`.
